@@ -82,5 +82,5 @@ a:hover {
  */
 a:hover, a:focus, input:focus {
   outline: solid;
-  border-color: rgb(0, 255, 119);
+  border-color: rgb(0, 255, 81);
 }
