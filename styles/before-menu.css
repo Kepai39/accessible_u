@@ -28,7 +28,8 @@
 .dropdown-menu {
 	margin-top:-1px;
 }
-.nav-item.dropdown:hover ul {
+.nav-item.dropdown:hover ul, 
+.nav-item.dropdown:focus-within ul{
 	display:block;
 }
 .navbar-toggler:hover + .navbar-collapse {
