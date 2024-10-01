@@ -64,7 +64,7 @@ p {
  *
  */
 a {
-  color: #6c1dff;
+  color: #777777;
 	text-decoration: none;
 }
 /*
@@ -80,3 +80,7 @@ a:hover {
  * Overrides browsers' visible focus indicator
  *
  */
+a:hover, a:focus, input:focus {
+  outline: solid;
+  border-color: blue;
+}
